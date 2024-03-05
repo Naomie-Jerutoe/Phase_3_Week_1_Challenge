@@ -26,3 +26,13 @@ def solution(A):
     # Return the maximum sum of two numbers with equal digit sums
     return max_sum
 
+#test cases
+result = solution([51, 71, 17, 42])
+print(result)  # Output => 93
+
+result2 = solution([42, 33, 60])
+print(result2)  # Output => 102
+
+result3 = solution([51, 32, 43])
+print(result3)  # Output => -1
+

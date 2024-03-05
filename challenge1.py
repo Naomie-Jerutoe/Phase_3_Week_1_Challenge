@@ -23,3 +23,13 @@ def solution(A):
         return moves
     else:
         return -1
+
+#test cases
+result = solution([7, 15, 10, 8])
+print(result)  # Output => 7
+
+result2 = solution([11, 10, 8, 12, 8, 10, 11])
+print(result2)  # Output => 6
+
+result3 = solution([7, 14, 10])
+print(result3)  # Output => -1
